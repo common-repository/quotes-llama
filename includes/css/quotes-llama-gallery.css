@@ -1,0 +1,124 @@
+.quotes-llama-gallery {
+	top: 0;
+	transition: height 2s;
+}
+
+.quotes-llama-gallery-quotebox {
+	position: relative;
+	min-height: 180px;
+	max-width: 45%;
+	padding: 5px;
+	cursor: pointer;
+	transition: height 2s;
+	transition: width 2s;
+}
+
+.quotes-llama-gallery-rotate {
+	overflow: hidden;
+	transition: height 2s;
+}
+
+.quotes-llama-gallery img  {
+	max-width: 150px;
+	max-height: 150px;
+	margin-right: 15px;
+	border-radius: 5px;
+	box-shadow: 5px 10px 12px 0px rgba(0,0,0,0.75);
+	float: left;
+}
+
+.quotes-llama-gallery-author {
+	display: block;
+	text-align: right;
+	font-style: italic;
+}
+
+.quotes-llama-gallery-source {
+	display: inline-block;
+	text-align: right;
+	font-size: small;
+	font-style: italic;
+}
+
+.quotes-llama-gallery-countdown {
+	float: right;
+	top: 3px;
+	right: 3px;
+	padding-right: 5px;
+}
+
+@media only screen and (max-width: 1920px) {
+	.quotes-llama-gallery-quotebox {
+		max-width: 50%;
+	}
+}
+
+@media only screen and (max-width: 1366px) {
+	.quotes-llama-gallery-quotebox {
+		max-width: 55%;
+	}
+
+	.quotes-llama-gallery img {
+		max-width: 138px;
+		max-height: 138px;
+		margin-right: 8px;
+		border-radius: 3px;
+		box-shadow: 3px 7px 9px 0px rgba(0,0,0,0.60);
+	}
+}
+
+@media only screen and (max-width: 1080px) {
+	.quotes-llama-gallery-quotebox {
+		max-width: 60%;
+	}
+
+	.quotes-llama-gallery img {
+		max-width: 115px;
+		max-height: 115px;
+		margin-right: 14px;
+		border-radius: 3px;
+		box-shadow: 3px 7px 9px 0px rgba(0,0,0,0.60);
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.quotes-llama-gallery-quotebox {
+		max-width: 70%;
+	}
+
+	.quotes-llama-gallery img {
+		max-width: 90px;
+		max-height: 90px;
+		margin-right: 13px;
+		border-radius: 2px;
+		box-shadow: 2px 5px 6px 0px rgba(0,0,0,0.40);
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.quotes-llama-gallery-quotebox {
+		max-width: 80%;
+	}
+
+	.quotes-llama-gallery img {
+		max-width: 65px;
+		max-height: 65px;
+		margin-right: 12px;
+		border-radius: 2px;
+		box-shadow: 2px 5px 6px 0px rgba(0,0,0,0.30);
+	}
+}
+
+@media only screen and (max-width: 240px) {
+	.quotes-llama-gallery-quotebox {
+		max-width: 90%;
+	}
+
+	.quotes-llama-gallery img {
+		max-width: 45px;
+		max-height: 45px;
+		margin-right: 11px;
+		border-radius: 2px;
+		box-shadow: 2px 5px 6px 0px rgba(0,0,0,0.30);
+	}
+}
